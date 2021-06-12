@@ -88,6 +88,6 @@ ansible-playbook setup_worker_nodes.yml
 kubectl get nodes
 ```
 
-####### HERE YOU GO DOCKER AND KUBERNETE ARE INSTALLED ON AWS UBUNTU SERVER  
+##### HERE YOU GO DOCKER AND KUBERNETE ARE INSTALLED ON AWS UBUNTU SERVER  
 
 
