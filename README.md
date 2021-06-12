@@ -1,4 +1,4 @@
-# Guide to setup ansible and then using that setting up the docker and Kubernetes on the AWS ubuntu server via ansible
+# Guide to setup ansible and setting up the docker and Kubernetes on the AWS ubuntu server via ansible
 
 ## Setting the servers
 
