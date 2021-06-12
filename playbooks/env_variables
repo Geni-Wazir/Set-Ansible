@@ -1,4 +1,4 @@
-ad_addr: 3.138.110.61
+ad_addr: < kubernetes_master ip >
 cidr_v: 10.244.0.0/16
 
 packages:
