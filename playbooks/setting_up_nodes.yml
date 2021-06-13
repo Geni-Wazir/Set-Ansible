@@ -35,7 +35,7 @@
      state: enabled
      permanent: yes
      immediate: yes
-    with_items: "{{ master_ports if ('kubernetes-master-nodes' in group_names) else worker_ports }}"
+    with_items: "{{ master_ports if ('kubernetes_master_nodes' in group_names) else worker_ports }}"
 
   - name: Enabling Bridge Firewall Rule
     shell: "echo '1' > /proc/sys/net/bridge/bridge-nf-call-iptables"
