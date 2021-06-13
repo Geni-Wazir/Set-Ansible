@@ -63,7 +63,7 @@ cd test/playbooks
 ```
 
 Open the env_variables file and edit the ad_addr
-ad_addr refers to the master node so it should be kubernetes_master local ip address
+ad_addr refers to the master node so it should be kubernetes_master ip address
 
 ## Setting up the kubernetes master node
 Now execute the followinng command to setup the kubernetes master node
