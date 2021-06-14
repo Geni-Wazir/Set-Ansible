@@ -1,4 +1,4 @@
-ad_addr: < kubernetes_master_ip >
+ad_addr: < kubernetes_master_local_ip >
 cidr_v: 10.244.0.0/16
 
 packages:
