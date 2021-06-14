@@ -63,24 +63,35 @@ cd test/playbooks
 ```
 
 Open the env_variables file and edit the ad_addr
-ad_addr refers to the master node so it should be kubernetes_master ip address
+ad_addr refers to the master node so it should be kubernetes_master local ip address
 
 ## Setting up the kubernetes master node
 Now execute the followinng command to setup the kubernetes master node
 
 ```
 ansible-playbook setup_master_node.yml
+
 ```
 
 ### DOCKER will be installed while running the above palybook
 
-* Once the master node is ready, run the following command to set up the worker nodes
+
+![Screenshot from 2021-06-13 22-08-49](https://user-images.githubusercontent.com/47722406/121835473-06e73d80-ccef-11eb-9531-132f233883e8.png)
+
+
+
+ Once the master node is ready, run the following command to set up the worker nodes
+ 
 
 ## Setting up the kubernetes worker node
 
 ```
 ansible-playbook setup_worker_nodes.yml
+
 ```
+
+![Screenshot from 2021-06-13 22-08-56](https://user-images.githubusercontent.com/47722406/121835573-401fad80-ccef-11eb-8989-792df5c2dcf7.png)
+
 
 * Once the workers have joined the cluster, run the following command to check the status of the worker nodes on kubernetes master server
 
